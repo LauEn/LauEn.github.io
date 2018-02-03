@@ -54,6 +54,12 @@ body{
 	padding-right: 55px;
 	padding-bottom: 17px;
 	margin-top: 33px;
+	transition: all 0.3s;
+}
+
+.header-button:hover{
+	text-decoration: none;
+	box-shadow: none;
 }
 
 .header-button-block{
@@ -173,10 +179,28 @@ footer{
 	color: #fff;
 	font-size: 18px;
 	padding: 12px 40px;
+	text-decoration: none;
+	transition: all 0.3s;
+}
+
+.footer-button:hover{
+	background-color: #fff;
 }
 
 .footer-cta-block{
 	text-align: center;
+}
+
+.social-icon{
+	text-decoration: none;
+	transition:all 0.2s;
+	background-color: transparent;
+}
+
+.social-icon:hover{
+	background-color: transparent;
+	box-shadow: 10px 17px 34px 6px rgba(18, 61, 145, 0.7);
+	
 }
 
 
